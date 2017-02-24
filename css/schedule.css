@@ -1,0 +1,204 @@
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:"Khmer OS";
+	src: url("../font/KhmerOS.eot");/* IE support */
+	src: local('Khmer OS'),url(../font/KhmerOS_siemreap.ttf) format('truetype');/* Firefox3.5>, Saferi3.1>*/
+}
+html {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15pt;
+	line-height:0px;	
+}
+body {
+	top-margin:0px;
+	font-family:"Khmer OS";
+	color:#333333;
+	font-size:13pt;
+}
+.tdpricipal
+{
+    border-color: #666666;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    margin:0px;
+	padding-left:48px;
+	table-layout:auto;
+	text-align:left;
+}
+
+.report_header_kh
+{
+    border-color: #333333;
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+    margin: 0px;
+    padding:2px;
+	table-layout:auto;
+	border-bottom:0px solid #333333;
+	border-right:1px solid #333333;
+	border-left:1px solid #333333;
+	border-top:1px solid #333333;
+}
+.report_header_en
+{
+    border-color: #333333;
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+    margin: 0px;
+    padding:2px;
+	table-layout:auto;
+	border-bottom:1px solid #333333;
+	border-right:1px solid #333333;
+	border-left:1px solid #333333;
+	border-top:0px solid #333333;
+}
+
+.form_border{
+	border-bottom:1px solid #333333;
+	border-right:1px solid #333333;
+	border-left:1px solid #333333;
+	border-top:1px solid #333333;
+}
+.footer_report{
+font-size:9pt;
+color:#000000;
+font-family:"kh Content", Times, serif;
+}
+		p, li, td	{font:normal 18px/18px Arial;}
+		table	{border:0;border-collapse:collapse;}
+		td		{padding:5px;}
+		tr.odd	{background:#e4dcd9;}
+		tr.highlight	{background:#CCC;}
+		tr.selected		{background:#FFF;color:#00F;}
+		
+		
+/* --------------*/
+pre {
+	padding: 1em;
+	background-color: #F2F2F2;
+}
+code {
+	font-size: 1.2em;
+	background-color: #F2F2F2;
+}
+
+#content {
+	margin: 3em;
+}
+
+#content p {
+	width: 45em;
+}
+#mainmenu {
+	margin: 1em 0 0 0;
+}
+.panel {
+	clear: both;
+	display: none;
+	border: 3px solid #00adef;
+	padding: 1em;
+	background-color: #FFF;
+	margin: 0;
+}
+.panel.active-tab-body {
+	display: block;
+}
+#tabs {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#tabs li {
+	position: relative;
+	float: left;
+}
+#tabs a {
+	float: left;
+	padding: 5px 8px;
+	margin-right: 6px;
+	border: 1px solid #00adef;
+	border-width: 1px 1px 0 1px;
+	text-decoration: none;
+	color: #000;
+}
+#tabs a:hover {
+	background-color: #8dd8f8;
+	color: #FFF;
+}
+#tabs a.active-tab {
+	background-color: #00adef;
+	color: #FFF;
+}
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+
+thead, tfoot {
+	background-color: #FFF;
+}
+
+tr.rowodd {
+	background-color: #FFF;
+}
+
+tr.roweven {
+	background-color: #F2F2F2;
+}
+
+.sortcol {
+	cursor: pointer;
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.sortasc {
+	background-color: #DDFFAC;
+	background-image: url(up.gif);
+}
+.sortdesc {
+	background-color: #B9DDFF;
+	background-image: url(down.gif);
+}
+.nosort {
+	cursor: default;
+}
+
+.urg1, .urg2, .urg3, .urg4, .urg5 {
+	padding: 3px;
+	text-align: center;
+	border: 1px solid #333;
+	width: 3em;
+}
+
+.urg1 {
+	background-color: #FFFACD;
+}
+.urg2 {
+	background-color: #FFD700;
+}
+.urg3 {
+	background-color: #FFA500;
+}
+.urg4 {
+	background-color: #E13E00;
+}
+.urg5 {
+	background-color: Red;
+}
+
+th.resize-handle-active {
+	cursor: e-resize;
+}
+
+div.resize-handle {
+	cursor: e-resize;
+	width: 2px;
+	border-right: 1px dashed #1E90FF;
+	position:absolute;
+	top:0;
+	left:0;
+}
